@@ -295,7 +295,7 @@ export default class QuickLatexPlugin extends Plugin {
 			},
 		},
 		{
-			key: 'Space',
+			key: ';',
 			run: (): boolean => {
 				const view = this.app.workspace.getActiveViewOfType(MarkdownView)
 				if (!view) return false
